@@ -3,7 +3,7 @@
 #define __UAPI_LINUX_MSM_CAM_SENSOR_H
 
 #include <linux/v4l2-mediabus.h>
-#include <media/msm_camsensor_sdk.h>
+#include <media/msm_camsensor_sdk-oss.h>
 
 #include <linux/types.h>
 #include <linux/i2c.h>
@@ -156,6 +156,8 @@ enum csid_cfg_type_t {
 	CSID_CFG,
 	CSID_TESTMODE_CFG,
 	CSID_RELEASE,
+	CSID_SECCAM_TOPOLOGY,
+	CSID_SECCAM_RESET,
 };
 
 enum csiphy_cfg_type_t {

@@ -14,7 +14,7 @@
 #ifndef __MSM_CAMERA_TZ_UTIL_H
 #define __MSM_CAMERA_TZ_UTIL_H
 
-#include <soc/qcom/camera2.h>
+#include <soc/qcom/camera2-oss.h>
 
 #ifndef CONFIG_MSM_CAMERA_TZ_TA_NAME
 #define CONFIG_MSM_CAMERA_TZ_TA_NAME  "seccamdemo64"

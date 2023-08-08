@@ -3,7 +3,7 @@
 #define __UAPI_MSMB_ISP__
 
 #include <linux/videodev2.h>
-#include <media/msmb_camera.h>
+#include <media/msmb_camera-oss.h>
 
 #define MAX_PLANES_PER_STREAM 3
 #define MAX_NUM_STREAM 7

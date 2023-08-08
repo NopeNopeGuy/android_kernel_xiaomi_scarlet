@@ -17,7 +17,7 @@
 #include <linux/clk/qcom.h>
 //#include <linux/clk/msm-clk-provider.h>
 #include <linux/delay.h>
-#include <media/msmb_pproc.h>
+#include <media/msmb_pproc-oss.h>
 #include "msm_cpp.h"
 
 

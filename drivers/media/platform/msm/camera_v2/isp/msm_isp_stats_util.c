@@ -13,7 +13,7 @@
 #include <linux/io.h>
 #include <linux/atomic.h>
 #include <media/v4l2-subdev.h>
-#include <media/msmb_isp.h>
+#include <media/msmb_isp-oss.h>
 #include "msm_isp_util.h"
 #include "msm_isp_axi_util.h"
 #include "msm_isp_stats_util.h"

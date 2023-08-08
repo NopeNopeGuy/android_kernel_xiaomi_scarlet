@@ -16,7 +16,7 @@
 
 #include <media/v4l2-subdev.h>
 #include <media/videobuf2-core.h>
-#include <media/msmb_camera.h>
+#include <media/msmb_camera-oss.h>
 
 /* NOTE: this header file should ONLY be included by subdev drivers */
 

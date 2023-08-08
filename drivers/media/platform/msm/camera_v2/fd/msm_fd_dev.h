@@ -19,7 +19,7 @@
 #include <media/v4l2-ctrls.h>
 #include <media/videobuf2-v4l2.h>
 #include <linux/msm-bus.h>
-#include <media/msm_fd.h>
+#include <media/msm_fd-oss.h>
 #include <linux/dma-buf.h>
 #include <linux/msm_ion.h>
 #include "cam_soc_api.h"
@@ -268,7 +268,7 @@ struct msm_fd_device {
 	struct completion hw_halt_completion;
 	int recovery_mode;
 	uint32_t clk_rate_idx;
-    bool init;
+	bool init;
 };
 
 #endif /* __MSM_FD_DEV_H__ */

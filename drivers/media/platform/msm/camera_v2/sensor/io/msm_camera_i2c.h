@@ -16,7 +16,7 @@
 
 #include <linux/delay.h>
 #include <media/v4l2-subdev.h>
-#include <media/msm_cam_sensor.h>
+#include <media/msm_cam_sensor-oss.h>
 
 #define I2C_POLL_TIME_MS 5
 #define MAX_POLL_DELAY_MS 100

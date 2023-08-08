@@ -17,12 +17,12 @@
 
 #include <linux/i2c.h>
 #include <linux/gpio.h>
-#include <soc/qcom/camera2.h>
+#include <soc/qcom/camera2-oss.h>
 #include <media/v4l2-subdev.h>
-#include <media/msmb_camera.h>
+#include <media/msmb_camera-oss.h>
 #include <linux/platform_device.h>
 #include <media/v4l2-ioctl.h>
-#include <media/msm_cam_sensor.h>
+#include <media/msm_cam_sensor-oss.h>
 #include "msm_camera_i2c.h"
 #include "msm_camera_dt_util.h"
 #include "msm_camera_io_util.h"

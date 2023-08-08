@@ -11,7 +11,7 @@
  * GNU General Public License for more details.
  */
 
-#include <soc/qcom/camera2.h>
+#include <soc/qcom/camera2-oss.h>
 #include "msm_camera_spi.h"
 
 #undef SPIDBG

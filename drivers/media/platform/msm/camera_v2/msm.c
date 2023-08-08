@@ -31,7 +31,7 @@
 #include "msm_vb2.h"
 #include "msm_sd.h"
 #include "cam_hw_ops.h"
-#include <media/msmb_generic_buf_mgr.h>
+#include <media/msmb_generic_buf_mgr-oss.h>
 
 static struct v4l2_device *msm_v4l2_dev;
 static struct list_head    ordered_sd_list;
@@ -1378,7 +1378,7 @@ static int msm_probe(struct platform_device *pdev)
 	if (WARN_ON(rc < 0))
 		goto entity_fail;
 
-	pvdev->vdev->entity.group_id = QCAMERA_VNODE_GROUP_ID;
+	pvdev->vdev->entity.function = QCAMERA_VNODE_GROUP_ID;
 #endif
 
 	msm_v4l2_dev->notify = msm_sd_notify;

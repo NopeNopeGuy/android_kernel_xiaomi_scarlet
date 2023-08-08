@@ -14,7 +14,7 @@
 #ifndef __LINUX_MSMB_CAMERA_H
 #define __LINUX_MSMB_CAMERA_H
 
-#include <uapi/media/msmb_camera.h>
+#include <uapi/media/msmb_camera-oss.h>
 
 #ifdef CONFIG_COMPAT
 #define MSM_CAM_V4L2_IOCTL_NOTIFY32 \
